@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SyncVision"
 include ':app'
+include ':sign-up-page'
