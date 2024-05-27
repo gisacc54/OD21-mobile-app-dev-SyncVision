@@ -11,4 +11,13 @@
     <string name="sign_in">Sign In</string>
     <string name="don_t_have_an_account">Don`t have an account?</string>
     <string name="let_s_register">Let`s Register</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log In</string>
+    <string name="dark_mode">Dark Mode</string>
 </resources>
