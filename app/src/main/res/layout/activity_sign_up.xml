@@ -3,13 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+
     android:layout_height="match_parent"
     android:scrollbars="none"
-    tools:context=".SignUpActivity" android:layout_width="match_parent">
+    tools:context=".SignUpActivity"
+    android:layout_width="match_parent">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation = "vertical"
+    android:background="?android:attr/colorBackground"
     android:layout_marginStart="32.dp"
     android:layout_marginEnd="32dp">
 
@@ -38,9 +41,10 @@
         android:layout_height="wrap_content"
         android:text="@string/start_body"
         android:textSize="15sp"
+        style="@style/TEXT"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:textColor="@color/black"
+
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +59,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:hint="@string/user_name"
-        android:textColorHint="@color/black"
         app:boxStrokeColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -64,7 +67,8 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:singleLine="true"
-            android:textColor="@color/black" />
+            style="@style/TEXT"
+            />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,7 +78,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:hint="@string/enter_email"
-        android:textColorHint="@color/black"
         app:boxStrokeColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -83,7 +86,7 @@
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:singleLine="true"
-            android:textColor="@color/black" />
+            style="@style/TEXT"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -93,7 +96,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="@string/enter_password"
-        android:textColorHint="@color/black"
         app:boxStrokeColor="@color/black"
         app:passwordToggleEnabled="true">
 
@@ -103,7 +105,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:singleLine="true"
-            android:textColor="@color/black" />
+            style="@style/TEXT"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -113,7 +115,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Confirm Password"
-        android:textColorHint="@color/black"
         app:boxStrokeColor="@color/black"
         app:passwordToggleEnabled="true">
 
@@ -123,7 +124,7 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:singleLine="true"
-            android:textColor="@color/black" />
+            style="@style/TEXT" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -133,6 +134,7 @@
         android:layout_marginTop="32dp">
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSignUp"
+            style="@style/BUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="20dp"
@@ -154,7 +156,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/already_have_an_account"
-            android:textColor="@color/black"
+            style="@style/TEXT"
             android:textSize="14sp" />
 
         <TextView
@@ -164,6 +166,7 @@
             android:layout_marginStart="10dp"
             android:textColor="@color/design_default_color_error"
             android:text="@string/login"
+
             android:textSize="14sp" />
 
 

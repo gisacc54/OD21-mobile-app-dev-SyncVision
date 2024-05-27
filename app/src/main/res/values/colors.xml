@@ -10,4 +10,16 @@
     <color name="purple_main">#6C63FF</color>
     <color name="grey">#979A9A</color>
     <color name="grey_2">#ced4da</color>
+
+    <color name="login_background_light">#FFFFFF</color>
+    <color name="login_text_light">#000000</color>
+
+    <color name="signup_background_light">#FFFFFF</color>
+    <color name="signup_text_light">#000000</color>
+
+    <color name="login_background_dark">#121212</color>
+    <color name="login_text_dark">#FFFFFF</color>
+
+    <color name="signup_background_dark">#121212</color>
+    <color name="signup_text_dark">#FFFFFF</color>
 </resources>
