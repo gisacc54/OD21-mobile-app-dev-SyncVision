@@ -16,15 +16,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switch1"
-        app:layout_constraintVertical_bias="0.011"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/note_list" />
 
     <TextView
         android:id="@+id/start_page_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Imagine. Create. Share"
+        android:text="@string/imagine_create_share"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -41,7 +41,7 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Where ideas transform into reality, connections flourish, and creativity knows no limits."
+        android:text="@string/start_body"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -59,7 +59,7 @@
         android:paddingTop="0dp"
         android:paddingBottom="0dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Let`s get started!"
+        android:text="@string/start_btn"
         android:textAllCaps="false"
         android:textStyle="normal"
         app:icon="@drawable/login"
@@ -75,15 +75,15 @@
 
     <Switch
         android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="132dp"
+        android:layout_height="20dp"
         android:text="@string/Dark_Mode"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.883" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
