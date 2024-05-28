@@ -1,24 +1,58 @@
 package com.example.syncvision;
 
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
+import android.util.Log;
+import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class SignupActivity extends AppCompatActivity {
-
+    private static final String TAG = "SignupActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_signup);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+        Log.d(TAG, "onCreate");
+
+        findViewById(R.id.editTextText4);
+        findViewById(R.id.editTextText5);
+        findViewById(R.id.editTextText2);
+        findViewById(R.id.editTextText3);
+        Button signUpButton = findViewById(R.id.button3);
+
+        // Handle sign-up button click
+        signUpButton.setOnClickListener(v -> {
+            // Logic for sign-up can be added here
+            // For example, collect the user input and send it to your server
         });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d(TAG, "onStart");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d(TAG, "onResume");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d(TAG, "onPause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d(TAG, "onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy");
     }
 }
