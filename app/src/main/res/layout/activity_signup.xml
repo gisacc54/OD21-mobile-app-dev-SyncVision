@@ -37,7 +37,7 @@
     <EditText
         android:id="@+id/editTextText2"
         style="@style/Input"
-        android:layout_width="match_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:drawableStart="@drawable/email"
@@ -48,12 +48,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.361" />
+        app:layout_constraintVertical_bias="0.388" />
 
     <EditText
         android:id="@+id/editTextText3"
         style="@style/Input"
-        android:layout_width="match_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:drawableStart="@drawable/lock"
@@ -90,7 +90,7 @@
     <EditText
         android:id="@+id/editTextText4"
         style="@style/Input"
-        android:layout_width="match_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:autofillHints=""
@@ -107,7 +107,7 @@
     <EditText
         android:id="@+id/editTextText5"
         style="@style/Input"
-        android:layout_width="match_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:autofillHints=""

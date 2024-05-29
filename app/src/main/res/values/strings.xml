@@ -19,5 +19,6 @@
     <string name="todo">TODO</string>
     <string name="go_to_do">GOTODO</string>
     <string name="will_do">WILLDO</string>
+    <string name="change_theme">Change theme</string>
 
 </resources>
