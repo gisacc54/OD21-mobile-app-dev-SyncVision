@@ -11,4 +11,8 @@
     <string name="sign_in">Sign In</string>
     <string name="don_t_have_an_account">Don`t have an account?</string>
     <string name="let_s_register">Let`s Register</string>
+    <string name="register_your_account">Register your account</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
 </resources>

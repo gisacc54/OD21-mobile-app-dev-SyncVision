@@ -13,10 +13,11 @@
         android:theme="@style/Theme.SyncVision"
         tools:targetApi="31">
         <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".StartActivity"
             android:exported="true">
