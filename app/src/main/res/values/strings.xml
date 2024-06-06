@@ -5,10 +5,20 @@
     <string name="start_btn">Let`s get started!</string>
     <string name="login_str">Let`s get you Login!</string>
     <string name="login_text">Enter Information below</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
     <string name="enter_email">Enter Email</string>
     <string name="enter_password">Enter Password</string>
     <string name="recover_password">Recover Password?</string>
     <string name="sign_in">Sign In</string>
     <string name="don_t_have_an_account">Don`t have an account?</string>
     <string name="let_s_register">Let`s Register</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="signup">signup</string>
+    <string name="where_ideas_transform_into_reality_connections_flourish_and_creativity_knows_no_limits">Where ideas transform into reality, connections flourish, and creativity knows no limits.</string>
+    <string name="todo">TODO</string>
+    <string name="go_to_do">GOTODO</string>
+    <string name="will_do">WILLDO</string>
+    <string name="change_theme">Change theme</string>
+
 </resources>
