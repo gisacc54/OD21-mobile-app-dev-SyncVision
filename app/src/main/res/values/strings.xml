@@ -17,4 +17,5 @@
     <string name="enter_passwordagain">Enter Password again</string>
     <string name="register">Let\'s Get you Registered</string>
     <string name="sign_up">SIGN UP</string>
+    <string name="signup_image">signup-image</string>
 </resources>
