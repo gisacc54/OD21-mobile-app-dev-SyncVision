@@ -13,8 +13,9 @@
         android:theme="@style/Theme.SyncVision"
         tools:targetApi="31">
 
+
         <activity
-            android:name=".LoginActivity"
+            android:name=".SignUpActivity"
             android:exported="true"
             android:label="@string/title_activity_sign_up_page"
             android:theme="@style/Theme.SyncVision">
@@ -25,7 +26,7 @@
         </activity>
 
         <activity
-            android:name=".SignUpActivity"
+            android:name=".LoginActivity"
             android:exported= "false"
             android:theme="@style/Theme.SyncVision" />
 

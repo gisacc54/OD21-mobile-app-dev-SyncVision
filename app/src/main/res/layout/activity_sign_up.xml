@@ -132,16 +132,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp">
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnSignUp"
             style="@style/BUTTON"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="20dp"
+            android:paddingHorizontal="16dp"
+            android:layout_marginHorizontal="50dp"
+            android:drawableStart="@drawable/login"
             android:paddingTop="10dp"
             android:paddingEnd="20dp"
             android:paddingBottom="20dp"
             android:text="@string/register"
+            android:textColor="@color/white"
             app:cornerRadius="10dp" />
     </FrameLayout>
 

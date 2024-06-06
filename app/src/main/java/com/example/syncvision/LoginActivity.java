@@ -20,6 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.i("data", "onCreate called");
         super.onCreate(savedInstanceState);
+        Log.i("data", "onCreate Called");
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_log_in);
 
