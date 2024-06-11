@@ -6,5 +6,8 @@
         <item name="android:background">@drawable/round_grey</item>
         <item name="android:layout_marginHorizontal">30dp</item>
         <item name="android:drawablePadding">5dp</item>
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
     </style>
 </resources>
