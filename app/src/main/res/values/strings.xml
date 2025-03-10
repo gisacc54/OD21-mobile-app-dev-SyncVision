@@ -11,4 +11,11 @@
     <string name="sign_in">Sign In</string>
     <string name="don_t_have_an_account">Don`t have an account?</string>
     <string name="let_s_register">Let`s Register</string>
+    <string name="name">SIGN UP</string>
+    <string name="textview">FullName</string>
+    <string name="mail">Email</string>
+    <string name="enter_passwordagain">Enter Password again</string>
+    <string name="register">Let\'s Get you Registered</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="signup_image">signup-image</string>
 </resources>
